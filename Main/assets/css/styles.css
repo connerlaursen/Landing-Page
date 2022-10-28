@@ -1,0 +1,122 @@
+* {
+  margin:0;
+  padding:0;  
+}
+/* changed colors to be true black and true white so that white squares behind images blend in*/
+body {
+  position: relative;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+}
+
+h1, h2 {
+  margin: 20px;
+}
+
+main {
+  padding: 60px 0;
+}
+
+li {
+  display: inline;
+  padding: 0px 30px;
+}
+
+/* changed color to true white */
+
+a {
+  text-decoration:none;
+  color: white;
+}
+/* changed the line height slighly to better center the links at the top and bottom, and changed color to purple*/
+header,
+footer {
+  height: 55px;
+  width: 100%;
+  line-height: 53px;
+  background-color: rgb(80, 12, 129);
+  
+}
+/* changed color to gold */
+header {
+  position: fixed;
+  border-bottom: 10px solid goldenrod;
+}
+/* changed color to gold and true white */
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-top: 10px solid goldenrod;
+  color: white;    
+}
+
+figure {
+  margin-bottom: 40px;
+}
+
+/* changed contact me section to a silver color */
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  background-color: rgb(175, 175, 175);
+}
+ /* centering class to alight all text to the middle of the webpage */
+.center {
+  text-align: center;
+}
+/* added puppy id to the uw puppy picture below the self image */
+#puppy{
+  display: block;
+  margin: 50px auto;
+  width: 250px;
+  height: 250px;
+}
+
+/* added self image id to align and disply my picture properly as a circle. */
+#selfimage {
+  display: block;
+  box-shadow: 0px 0px 25px;
+  margin: 50px auto;
+  width: 400px;
+  height: 400px;
+  border-radius: 220px;
+
+}
+/*changed color to purple */
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid rgb(80, 12, 129);
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+  /* changed color to true black */ 
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid black
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  /* changed color to purple and true white*/
+button {
+  box-shadow: 0 0 5px black;
+  border-radius: 15px;
+  margin:13px;
+  height: 45px;
+  width: 125px;
+  background-color: rgb(80, 12, 129);
+  color: white;
+}
